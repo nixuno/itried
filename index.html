@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <style>
+        @font-face {
+            font-family: 'gg sans';
+            src: url('gg sans Regular.ttf') format('truetype');
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'gg sans', sans-serif;
+        }
+        .center-container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .center {
+            width: 500px;
+        }
+        .overlay {
+            position: absolute;
+            top: 21%;
+            left: 38%;
+            transform: translate(-50%, -50%);
+            font-family: 'gg sans', sans-serif;
+            background: transparent;
+            color: #CCCDD2;
+            border: none;
+            outline: none;
+            height: 31px;
+            width: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center-container">
+        <img src="itried.jpg" alt="Image" class="center">
+        <input type="text" class="overlay">
+    </div>
+</body>
+
+</html>
